@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+
+    p {
+        font-size: 32px;
+        color: white;
+        font-family: "Encode Sans";
+        margin: 4vw 6vw;
+        cursor: pointer;
+        &:hover, &:focus{
+            color: #E0FF65;
+        }
+    }
+    ul{
+        display: flex;
+        margin: 0 auto;
+        margin-right: 6vw;
+
+        li{
+            color: white;
+            font-size: 20px;
+            font-family: "Poppins";
+            list-style: none;
+            margin: auto 3vw;
+            cursor: pointer;
+            &:hover, &:focus{
+                color: #E0FF65;
+            }
+
+        }   
+        
+    }
+}
+
+
+

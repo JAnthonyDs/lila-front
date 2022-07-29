@@ -1,0 +1,22 @@
+.main{
+    position: absolute;
+    background-color: #050505;
+    height: 100%;
+    right: 0;
+    width: 100px;
+    
+
+    ul{
+        margin-top: 25vw;
+        margin-left: 40%;
+        li{
+            cursor: pointer;
+            margin-top: 3.5vw;
+            &:hover, &:focus{
+                color: #E0FF65;
+            }
+        }
+
+    }
+    
+}

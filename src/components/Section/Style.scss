@@ -1,0 +1,60 @@
+div{
+    display: block;
+    .text{
+        position: absolute;
+        font-family: 'Encode sans';
+        font-size: 100px;
+        color: #E0FF65;
+        max-width: 1vw;
+        margin-top: 12vw;
+        margin-left: 5vw;
+        cursor: pointer;
+        &:hover, &:focus{
+            color: #fff;
+        }
+    
+    }
+    
+    .pequeno{
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Encode sans';
+        color: #fff;
+        margin-top: 25vw;
+        margin-left: 5.5vw;
+        cursor: pointer;
+        &:hover, &:focus{
+            color: #E0FF65;
+        }
+        
+    }
+
+    .description {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 16px;
+        max-width: 17vw;
+        margin-left: 5.5vw;
+        margin-top: 30vw;
+        &:hover, &:focus{
+            color: #E0FF65;
+        }
+    }
+
+    button{
+        font-family: 'Poppins';
+        font-size: 25px;
+        color: #050505;
+        background-color: #E0FF65;
+        border-radius: 10px;
+        padding: 15px 29px;
+        cursor: pointer;
+        justify-content: center;
+        position: absolute;
+        margin-top: 38vw;
+        margin-left: 5.5vw;
+    }
+}
+
+
